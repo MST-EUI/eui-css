@@ -12,9 +12,9 @@ HTML 中基础样式引用
 <link rel="stylesheet" href="./node_modules/@mistong/eui-css/dist/blue.whale.css" />
 ```
 
-JS 中变量引用
+css 中变量模块引用
 
 ```
-require('./node_modules/@mistong/eui-css/variable.scss');
+@import './node_modules/@mistong/eui-css/variable.scss';
 ```
 
