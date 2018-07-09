@@ -1,0 +1,61 @@
+.eui-button {
+  cursor: pointer;
+  border-radius: $border-radius-2;
+
+  &-primary {
+    color: $white;
+    background-color: $btn-primary;
+    &:hover {
+      background-color: $btn-primary-hover;
+    }
+    &:active {
+      background-color: $btn-primary-active;
+    }
+  }
+
+  &-secondary {
+    background-color: $btn-secondary;
+    color: $btn-primary;
+    &:hover {
+      background-color: $btn-primary-hover;
+      color: $white;
+    }
+    &:active {
+      background-color: $btn-primary-active;
+    }
+  }
+
+  &-white-primary {
+    background-color: $white;
+    color: $btn-primary;
+    &:hover {
+      background-color: $btn-primary-hover;
+      color: $white;
+    }
+    &:active {
+      background-color: $btn-primary-active;
+    }
+  }
+
+  &-white-secondary {
+    background-color: $white;
+    color: $gray-dark;
+    &:hover {
+      background-color: $gray-almost-white;
+    }
+    &:active {
+      background-color: $white;
+      color: $btn-primary;
+    }
+  }
+
+  &-disabled {
+    background-color: $gray-lightest;
+    color: $gray-lighter;
+    cursor: not-allowed;
+    &:hover, &:active {
+      background-color: $gray-lightest;
+      color: $gray-lighter;
+    }
+  }
+}

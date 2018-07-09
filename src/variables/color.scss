@@ -1,0 +1,27 @@
+$white: #FFFFFF;
+
+// neutrality color
+$gray-darker: #434F59;
+$gray-dark: #667480;
+$gray-light: #86939D;
+$gray-lighter: #B6C2CC;
+$gray-lightest: #DFE3EC;
+$gray-almost-white: #F8F9FC;
+
+// button color
+$btn-primary: $brand-primary;
+$btn-primary-hover: lighten($brand-primary, 10%);
+$btn-primary-active: darken($brand-primary, 10%);
+$btn-secondary: lighten($brand-primary, 25%);
+
+// link color
+
+// border-color
+
+// text color
+$text-primary-color:  $gray-darker;
+$text-secondary-color: $gray-dark;
+$text-thirdly-color: $gray-light;
+$text-disabled-color: $gray-almost-white;
+$text-helper-color: $gray-lightest;
+$text-danger-color: #f20000;

@@ -1,0 +1,60 @@
+@import "../src/theme/blue.whale.build.scss";
+
+.demo {
+  padding: 20px;
+  color: $gray-darker;
+  background-color: #F0F2F5;
+  .group {
+    .block {
+      margin: 15px 0 20px 0;
+      .label {
+        display: inline-block;
+        min-width: 80px;
+        margin-left: 50px;
+      }
+    }
+  }
+  h2 {
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+  }
+  .demo-base {
+    display: inline-block;
+    margin: 0 55px 0 15px;
+    min-width: 100px;
+    line-height: 20px;
+    height: 20px;
+    vertical-align: top;
+    padding: 5px 10px;
+  }
+  .demo-span {
+    @extend .demo-base;
+    color: $white;
+  }
+  .demo-span-button {
+    @extend .demo-base;
+  }
+  .brand-primary {
+    background-color: $brand-primary;
+  }
+  .gray-darker {
+    background-color: $gray-darker;
+  }
+  .gray-dark {
+    background-color: $gray-dark;
+  }
+  .gray-light {
+    background-color: $gray-light;
+  }
+  .gray-lighter {
+    background-color: $gray-lighter;
+  }
+  .gray-lightest {
+    background-color: $gray-lightest;
+    color: $gray-darker;
+  }
+  .gray-almost-white {
+    background-color: $gray-almost-white;
+    color: $gray-darker;
+  }
+}
