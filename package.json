@@ -1,5 +1,5 @@
 {
-  "name": "eui-css",
+  "name": "@mistong/eui-css",
   "version": "0.1.0",
   "description": "EUI component based css",
   "main": "dist/index.js",
