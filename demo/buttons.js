@@ -30,7 +30,7 @@ export default class Buttons extends React.Component {
     ));
     return (
       <div className="group">
-        <h2>按钮样式集合</h2>
+        <h2>按钮颜色集合</h2>
         <div className="content">
           <ul>
             {eles}

@@ -31,10 +31,6 @@ export default class Variables extends React.Component {
         enName: 'gray-almost-white',
         cnName: '中立色6',
       },
-      {
-        enName: 'gray-darker',
-        cnName: '中立色1',
-      },
     ];
     const eles = data.map(item => (
       <li className="block">
