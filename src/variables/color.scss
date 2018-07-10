@@ -12,7 +12,8 @@ $gray-almost-white: #F8F9FC;
 $btn-primary: $brand-primary;
 $btn-primary-hover: lighten($brand-primary, 10%);
 $btn-primary-active: darken($brand-primary, 10%);
-$btn-secondary: lighten($brand-primary, 36%);
+// $btn-secondary: lighten($brand-primary, 36%);
+$btn-secondary: #F2FBFF; // TODO changed to relative primary
 
 // link color
 

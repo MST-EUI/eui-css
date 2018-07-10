@@ -6,7 +6,8 @@
   "scripts": {
     "start": "eui server",
     "dev": "eui server",
-    "build": "rimraf dist && mkdir dist && sass ./src/theme/blue.whale.build.scss ./dist/blue.whale.css"
+    "build": "rimraf dist && mkdir dist && sass ./src/theme/blue.whale.build.scss ./dist/blue.whale.css",
+    "publish": "npm run build && npm publish --access=public"
   },
   "author": "mistong eui team",
   "license": "MIT",
