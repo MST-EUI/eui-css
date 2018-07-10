@@ -5,24 +5,23 @@ export default class Buttons extends React.Component {
     const data = [
       {
         enName: 'eui-button-primary',
-        cnName: '按钮1',
       },
       {
         enName: 'eui-button-secondary',
-        cnName: '按钮2',
       },
       {
         enName: 'eui-button-white-primary',
-        cnName: '按钮3',
       },
       {
         enName: 'eui-button-white-secondary',
-        cnName: '按钮4',
+      },
+      {
+        enName: 'eui-button-disabled',
       },
     ];
-    const eles = data.map(item => (
-      <li className="block">
-        <span className="label">{item.cnName}：</span>
+    const eles = data.map((item, index) => (
+      <li className="block" key={item.enName}>
+        <span className="label">按钮{index + 1}：</span>
         <span className={`demo-span-button eui-button ${item.enName}`} />
         <span className="label">样式名：</span>
         <span className={`demo-span-button eui-button ${item.enName}`} >{item.enName}</span>
