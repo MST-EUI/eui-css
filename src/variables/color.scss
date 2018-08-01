@@ -1,19 +1,41 @@
 $white: #FFFFFF;
+$active: #0062E8;
 
 // neutrality color
-$gray-darker: #434F59;
-$gray-dark: #667480;
-$gray-light: #86939D;
-$gray-lighter: #B6C2CC;
-$gray-lightest: #DFE3EC;
-$gray-almost-white: #F8F9FC;
+$gray-darkest: #333333;
+$gray-darker: #666666;
+$gray-dark: #999999;
+$gray-light: #BBBBBB;
+$gray-lighter: #E7EBF0;
+$gray-lightest: #F4F4F4;
+
+// message color
+$info: #2E86FF;
+$warn: #FF6103;
+$success: #63D08C;
+$error: #FF5353;
 
 // button color
+$btn-disabled: $gray-lighter;
+$btn-disabled-text-color: $gray-dark;
 $btn-primary: $brand-primary;
-$btn-primary-hover: lighten($brand-primary, 10%);
-$btn-primary-active: darken($brand-primary, 10%);
-// $btn-secondary: lighten($brand-primary, 36%);
-$btn-secondary: #F2FBFF; // TODO changed to relative primary
+$btn-primary-hover: rgba($brand-primary, 60%);
+$btn-primary-active: $active;
+$btn-primary-border-color: transparent;
+$btn-primary-text-color: $white;
+$btn-primary-hover-text-color: $white;
+$btn-secondary: rgba($brand-primary, 10%);
+$btn-secondary-hover: rgba($brand-primary, 60%);
+$btn-secondary-active: $active;
+$btn-secondary-border-color: transparent;
+$btn-secondary-text-color: $white;
+$btn-secondary-hover-text-color: $white;
+$btn-normal: $white;
+$btn-normal-hover: rgba($brand-primary, 60%);
+$btn-normal-active: $active;
+$btn-normal-border-color: $brand-primary;
+$btn-normal-text-color: $brand-primary;
+$btn-normal-hover-text-color: $white;
 
 // link color
 
