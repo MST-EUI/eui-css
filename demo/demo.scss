@@ -37,6 +37,9 @@
   .brand-primary {
     background-color: $brand-primary;
   }
+  .gray-darkest {
+    background-color: $gray-darkest;
+  }
   .gray-darker {
     background-color: $gray-darker;
   }
@@ -53,8 +56,14 @@
     background-color: $gray-lightest;
     color: $gray-darker;
   }
-  .gray-almost-white {
-    background-color: $gray-almost-white;
-    color: $gray-darker;
+  .test-btn {
+    background-color: #2E86FF;
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px solid #2E86FF;
+    &:hover {
+      background-color: #00f;
+      border-color: #00f;
+    }
   }
 }

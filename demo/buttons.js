@@ -10,10 +10,7 @@ export default class Buttons extends React.Component {
         enName: 'eui-button-secondary',
       },
       {
-        enName: 'eui-button-white-primary',
-      },
-      {
-        enName: 'eui-button-white-secondary',
+        enName: 'eui-button-normal',
       },
       {
         enName: 'eui-button-disabled',

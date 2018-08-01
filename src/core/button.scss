@@ -3,59 +3,59 @@
   border-radius: $border-radius-2;
 
   &-primary {
-    color: $white;
+    color: $btn-primary-text-color;
     background-color: $btn-primary;
+    border: 1px solid $btn-primary;
     &:hover {
       background-color: $btn-primary-hover;
+      color: $btn-primary-hover-text-color;
+      border-color: $btn-primary-hover;
     }
     &:active {
       background-color: $btn-primary-active;
+      border-color: $btn-primary-active;
     }
   }
 
   &-secondary {
     background-color: $btn-secondary;
-    color: $btn-primary;
+    color: $btn-secondary-text-color;
+    border: 1px solid #DEE7F6;
     &:hover {
-      background-color: $btn-primary-hover;
-      color: $white;
+      background-color: $btn-secondary-hover;
+      color: $btn-secondary-hover-text-color;
+      border-color: $btn-secondary-hover;
     }
     &:active {
-      background-color: $btn-primary-active;
+      background-color: $btn-secondary-active;
+      border-color: $btn-secondary-active;
     }
   }
 
-  &-white-primary {
-    background-color: $white;
-    color: $btn-primary;
+  &-normal {
+    background-color: $btn-normal;
+    color: $btn-normal-text-color;
+    border: 1px solid $brand-primary;
     &:hover {
-      background-color: $btn-primary-hover;
-      color: $white;
+      background-color: $btn-normal-hover;
+      color: $btn-normal-hover-text-color;
+      border-color: $btn-normal-hover;
     }
     &:active {
-      background-color: $btn-primary-active;
-    }
-  }
-
-  &-white-secondary {
-    background-color: $white;
-    color: $gray-dark;
-    &:hover {
-      background-color: $gray-almost-white;
-    }
-    &:active {
-      background-color: $white;
-      color: $btn-primary;
+      background-color: $btn-normal-active;
+      border-color: $btn-normal-active;
     }
   }
 
   &-disabled {
-    background-color: $gray-lightest;
-    color: $gray-lighter;
+    background-color: $btn-disabled;
+    color: $btn-disabled-text-color;
+    border: 1px solid $btn-disabled;
     cursor: not-allowed;
     &:hover, &:active {
-      background-color: $gray-lightest;
-      color: $gray-lighter;
+      background-color: $btn-disabled;
+      color: $btn-disabled-text-color;
+      border-color: $btn-disabled;
     }
   }
 }
